@@ -22,7 +22,8 @@ alertView.delegate = self;
 
 ## <a id="点击回调"></a>Block
 ```objc
-  alertView.clickActionBlock = ^{
-    NSLog(@"去更新");
-  };
+//请下载工程查看Demo使用
+alertView.clickActionBlock = ^{
+  NSLog(@"去更新");
+};
 ```
