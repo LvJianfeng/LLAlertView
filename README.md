@@ -11,8 +11,8 @@
 ## <a id="如何使用LLNoDataView"></a>使用LLAlertView
 <!--* cocoapods导入：`pod 'LLAlertView'`-->
 * 手动导入：
-      * 将`LLAlertView.h``LLAlertView.m`两个文件拽入项目中
-    * 导入主头文件：`#import "LLNoDataView.h"`
+      * 将`LLAlertView.h` , `LLAlertView.m`两个文件拽入项目中
+    * 导入主头文件：`#import "LLAlertView.h"`
 
 ## <a id="点击回调"></a>Delegate
 ```objc
@@ -27,3 +27,5 @@ alertView.clickActionBlock = ^{
   NSLog(@"去更新");
 };
 ```
+
+
